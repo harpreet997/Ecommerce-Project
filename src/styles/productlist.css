@@ -1,0 +1,41 @@
+.price {
+    text-align: left;
+    color: orange;
+    font-weight: bold;
+    display: inline
+}
+
+.original-price {
+    margin-left: 10px;
+    margin-right: 80px;
+    display: inline;
+    text-align: left
+}
+
+.decrement {
+    display: inline;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px
+}
+
+.quantity {
+    display: inline;
+    margin: 10px
+}
+
+.increment {
+    display: inline;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px
+}
+
+.addToCart {
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: orange
+}

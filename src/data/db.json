@@ -1,0 +1,113 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "ASUS Laptop 16GB RAM",
+        "image": "images/Laptop1.jpg",
+        "price": 2500,
+        "originalPrice": 3000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Apple Laptop 32GB RAM",
+        "image": "images/Laptop2.jpg",
+        "price": 2500,
+        "originalPrice": 5000,
+        "description": "",
+        "quantity": 1
+
+      },
+      {
+        "id": 3,
+        "name": "Acer Laptop 16GB RAM",
+        "image": "images/Laptop3.jpg",
+        "price": 25000,
+        "originalPrice": 30000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 4,
+        "name": "HP G404 16GB RAM",
+        "image": "images/Laptop4.jpg",
+        "price": 28000,
+        "originalPrice": 30000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "iPhone 14 PRO ",
+        "image": "images/Mobile1.jpg",
+        "price": 26000,
+        "originalPrice": 30000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Vivo Ultra",
+        "image": "images/Mobile2.jpg",
+        "price": 15000,
+        "originalPrice": 16000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 7,
+        "name": "iPhone 14 PRO Max",
+        "image": "images/Mobile3.jpg",
+        "price": 5600,
+        "originalPrice": 8000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 8,
+        "name": "iPhone Mini",
+        "image": "images/Mobile4.jpg",
+        "price": 67000,
+        "originalPrice": 70000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 9,
+        "name": "Acer Speaker",
+        "image": "images/Speaker1.jpg",
+        "price": 25000,
+        "originalPrice": 26000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 10,
+        "name": "Sony GTK-PG10",
+        "image": "images/Speaker2.jpg",
+        "price": 30000,
+        "originalPrice": 32000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 11,
+        "name": "Philips MMS8085B/94 ",
+        "image": "images/Speaker3.jpg",
+        "price": 25000,
+        "originalPrice": 28000,
+        "description": "",
+        "quantity": 1
+      },
+      {
+        "id": 12,
+        "name": "Zebronics Zeb-Warrior 4",
+        "image": "images/Speaker4.jpg",
+        "price": 34000,
+        "originalPrice": 35000,
+        "description": "",
+        "quantity": 1
+      }
+    ]
+  }

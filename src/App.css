@@ -1,0 +1,219 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 400px) {
+  .img-width {
+    width: 400px;
+    height: 200px;
+  }
+
+  .search-input {
+    width: 85% !important;
+    margin-left: 10px;
+  }
+
+  .shopping-bag {
+    width: 50px !important;
+    height: 40px !important;
+    float: right !important;
+    margin-top: -45px !important;
+  }
+
+  .search-icon {
+    margin-right: 50px !important
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .img-width {
+    width: 210px;
+    height: 100px;
+  }
+}
+
+.search-input {
+  background-color: #F7E4A6;
+  height: 50px;
+  border-radius: 5px
+}
+
+.search-icon {
+  float: right;
+  position: relative;
+  margin-top: -35px;
+  margin-right: 0px;
+  width: 60px;
+  height: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 210px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #051142;
+  color: white;
+}
+
+/* .sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+} */
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar {
+    text-align: center;
+    float: none;
+  }
+
+}
+
+.text-align {
+  text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 400px) {
+  .img-width {
+    width: 400px;
+    height: 200px;
+  }
+
+  .search-input {
+    width: 85% !important
+  }
+
+  .shopping-bag {
+    width: 50px !important;
+    height: 40px !important;
+    float: right !important;
+    margin-top: -45px !important;
+  }
+
+  .search-icon {
+    margin-right: 50px !important
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .img-width {
+    width: 210px;
+    height: 100px;
+  }
+}
+
+.search-input {
+  background-color: #F7E4A6;
+  height: 50px;
+  border-radius: 5px
+}
+
+.search-icon {
+  float: right;
+  position: relative;
+  margin-top: -35px;
+  margin-right: 0px;
+  width: 60px;
+  height: 20px;
+}
+
+.btn-close {
+  background-color: white !important;
+}
+
+.modal-header {
+  background-color: #051142;
+  color: white;
+}
+
+.input {
+  height: 50px;
+  border-radius: 10px
+}
+
+.textarea {
+  border-radius: 10px;
+}
+
+.product-image {
+  width: 70px;
+
+}
+
+@media screen and (max-width: 820px) {
+  .action-width {
+    width: 300px !important;
+  }
+
+  .scroll {
+    overflow-x: scroll !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .action-width {
+    width: 150px !important;
+  }
+
+  .scroll {
+    overflow-x: scroll !important;
+  }
+}
+
+.logout{
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
