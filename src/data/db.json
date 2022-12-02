@@ -6,7 +6,7 @@
         "image": "images/Laptop1.jpg",
         "price": 2500,
         "originalPrice": 3000,
-        "description": "",
+        "description": "Good Quality, High Efficiency",
         "quantity": 1
       },
       {
@@ -15,7 +15,7 @@
         "image": "images/Laptop2.jpg",
         "price": 2500,
         "originalPrice": 5000,
-        "description": "",
+        "description": "Good Quality, High Efficiency, Backup Facility",
         "quantity": 1
 
       },
@@ -25,7 +25,7 @@
         "image": "images/Laptop3.jpg",
         "price": 25000,
         "originalPrice": 30000,
-        "description": "",
+        "description": "Good Quality, High Efficiency",
         "quantity": 1
       },
       {
@@ -34,7 +34,7 @@
         "image": "images/Laptop4.jpg",
         "price": 28000,
         "originalPrice": 30000,
-        "description": "",
+        "description": "Good Quality, High Efficiency",
         "quantity": 1
       },
       {
@@ -43,7 +43,7 @@
         "image": "images/Mobile1.jpg",
         "price": 26000,
         "originalPrice": 30000,
-        "description": "",
+        "description": "HD Camera, Excellent Graphics, Good Sound Quality",
         "quantity": 1
       },
       {
@@ -52,7 +52,7 @@
         "image": "images/Mobile2.jpg",
         "price": 15000,
         "originalPrice": 16000,
-        "description": "",
+        "description": "HD Camera, Excellent Graphics, Good Sound Quality",
         "quantity": 1
       },
       {
@@ -61,7 +61,7 @@
         "image": "images/Mobile3.jpg",
         "price": 5600,
         "originalPrice": 8000,
-        "description": "",
+        "description": "HD Camera, Excellent Graphics, Good Sound Quality",
         "quantity": 1
       },
       {
@@ -70,7 +70,7 @@
         "image": "images/Mobile4.jpg",
         "price": 67000,
         "originalPrice": 70000,
-        "description": "",
+        "description": "HD Camera, Excellent Graphics, Good Sound Quality",
         "quantity": 1
       },
       {
@@ -79,7 +79,7 @@
         "image": "images/Speaker1.jpg",
         "price": 25000,
         "originalPrice": 26000,
-        "description": "",
+        "description": "Good Sound Quality",
         "quantity": 1
       },
       {
@@ -88,7 +88,7 @@
         "image": "images/Speaker2.jpg",
         "price": 30000,
         "originalPrice": 32000,
-        "description": "",
+        "description": "Good Sound Quality",
         "quantity": 1
       },
       {
@@ -97,7 +97,7 @@
         "image": "images/Speaker3.jpg",
         "price": 25000,
         "originalPrice": 28000,
-        "description": "",
+        "description": "Good Sound Quality",
         "quantity": 1
       },
       {
@@ -106,7 +106,7 @@
         "image": "images/Speaker4.jpg",
         "price": 34000,
         "originalPrice": 35000,
-        "description": "",
+        "description": "Good Sound Quality",
         "quantity": 1
       }
     ]

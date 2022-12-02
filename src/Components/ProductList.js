@@ -7,12 +7,19 @@ import '../styles/productlist.css';
 import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import { getProductList } from '../getData/getdata';
+import { addToCart } from '../postData/postdata';
+import {Modal } from 'react-bootstrap';
+import ProductModal from './ProductModal';
 
 const ProductList = () => {
     const [searchProduct, setSearchProduct] = useState('');
     const [cartCount, setCartCount] = useState(0);
     const [productdata, setProductData] = useState([]);
+    const [productItem, setProductItem] = useState();
     const [cartdata, setCartData] = useState([]);
+    const [productModal, setProductModal] = useState(false);
+
+    const handleProductModal = (id) => setProductModal(id);
     useEffect(() => {
         getProductList()
             .then((response) => {
@@ -32,14 +39,15 @@ const ProductList = () => {
             })
     }, []);
 
-    const handleCart = (item) => {
+    const AddToCart = (item) => {
         
         let payload = {
             name: item.name,
             image: item.image,
             price: item.price,
             quantity: 1,
-            id: item.id
+            id: item.id,
+            originalPrice: item.price,
         }
         let data1 = cartdata.find(v => (v.id === payload.id))
         if(data1)
@@ -48,7 +56,7 @@ const ProductList = () => {
         }
         else
         {
-        axios.post('http://localhost:4001/carts', payload)
+        addToCart(payload)
         .then(() => {
             alert("Item added successfully");
             setCartCount(cartCount+1)
@@ -87,9 +95,6 @@ const ProductList = () => {
                                         <img className="card-img-top" src={item.image} alt="product-images" />
                                         <div className="card-body">
                                             <h5 className="card-title" style={{ textAlign: "left" }}>{item.name}</h5>
-                                            <p className="card-text" style={{ textAlign: "left" }}>
-                                                {item.description}</p>
-
                                             <p className='price'>&#8377;{item.price}</p>
                                             <del><p className='original-price'>&#8377;{item.originalPrice}</p></del>
                                             <span className="ms-2 fa fa-star checked"></span>
@@ -98,12 +103,17 @@ const ProductList = () => {
                                             <span className="fa fa-star"></span>
                                             <span className="fa fa-star"></span>
                                             <br />
-                                            <button className='decrement'>-</button>
-                                            <p className='quantity'>{item.quantity}</p>
-                                            <button className='increment'
-                                            >+</button>
+                                            <button className='preview'
+                                                onClick={() => {
+                                                    handleProductModal(item.id)
+                                                    setProductItem(item)
+                                                    }}>Preview</button>
                                             <button className='addToCart'
-                                                onClick={() => handleCart(item)}>Add to Cart</button>
+                                                onClick={() => AddToCart(item)}>Add to Cart</button>
+                                                <Modal show={productModal === item.id ? true : false}
+                                                    onHide={() => setProductModal(false)}>
+                                                    <ProductModal data={productItem} />
+                                                </Modal>
                                         </div>
                                     </div>
                                     <br />

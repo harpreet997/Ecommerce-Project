@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import { useNavigate, NavLink } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import HeaderLogo from '../assets/Logo.PNG';
 
 
 const Sidebar = () => {
-
     return (
         <div className="sidebar">
             <img src={HeaderLogo} alt="HeaderLogo" className='img-width' />
@@ -15,7 +14,6 @@ const Sidebar = () => {
             <NavLink className="fs-6 fw-bold" 
             >Speakers</NavLink>
         </div>
-
     )
 }
 
